@@ -3,7 +3,7 @@ Tunein Radio npm module
 
 Everything returns a promise.
 
-### tunein.searchForShow("seach terms")
+### tunein.searchForShow("search terms")
 Searches for a specified show. Returns a list of shows.
 
 ### tunein.getEpisodesOfShow(show)
