@@ -1,6 +1,6 @@
 {
   "name": "tunein_scraper",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Scraper for tunein radio",
   "main": "index.js",
   "scripts": {
