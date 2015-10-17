@@ -87,12 +87,4 @@
     });
   };
 
-  exports.searchForShow("stuff you should know").then(function(show) {
-    console.log(show[0].name);
-    return exports.getEpisodesOfShow(show[0]).then(function(episodes) {
-      console.log(episodes[0].name);
-      return exports.getStreamData(episodes[0]).then(console.log.bind(console));
-    });
-  });
-
 }).call(this);
